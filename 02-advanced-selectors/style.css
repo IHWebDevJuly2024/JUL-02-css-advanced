@@ -1,0 +1,38 @@
+/* DIRECT DESCENDANTS */
+
+ul > li {
+    /* It works with the li that are children of the ul only */
+    color: blue;
+}
+
+#p-container > .paragraph{
+    color: brown;
+}
+
+/* ALL DESCENDANTS (no matter if they are child or grandchild elements) */
+section li{
+    color: green;
+}
+
+/* Adjacent Sibling*/
+.sibling-example + div {
+    color: coral;
+}
+
+/* MULTIPLE SELECTION */
+#multiple-one, #multiple-two{
+    background-color: blueviolet;
+}
+
+/* ATTRIBUTE SELECTOR */
+
+a[href="http://www.ironhack.com"]{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+a[href*=".com"]{
+    color: red;
+}

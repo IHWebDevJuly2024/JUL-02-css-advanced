@@ -1,0 +1,16 @@
+/* If we are doing mobile first, let's add outside of the media query all the styles for a mobile*/
+
+h1{
+    border: 1px solid red;
+    font-size: 20px;
+}
+
+/* rest of the styles for mobile*/
+
+@media (min-width: 360px) and (max-width: 870px) {
+    /*apply here all the styles for tablet*/
+    h1{
+        background-color: aqua;
+        font-size: 40px;
+    }
+}
