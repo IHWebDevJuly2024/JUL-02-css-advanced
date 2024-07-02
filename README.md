@@ -61,6 +61,14 @@ On todays lesson we have learned about:
 }
 ```
 
+- Attribute selector
+
+```css
+a[href="https://www.google.com"] {
+  /* styles */
+}
+```
+
 ### Responsive design:
 
 #### Media queries
